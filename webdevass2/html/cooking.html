@@ -1,0 +1,213 @@
+<!DOCTYPE html >
+<html lang="en">
+<head>
+    <title>Guac making machine!</title>
+    <link rel="stylesheet" href="../css/ss.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="bg" style="font-family:Verdana;color:#000000;">
+    <div class="topnav" >
+        <a href="../index.html" class="active">Home Page</a>
+        <div id="myLinks">
+          <a href="../html/benefits.html">Benefits</a>
+          <a href="../html/history.html">History</a>
+          <a href="../html/cooking.html">Cooking</a>
+        </div>
+        <a class="icon" id="iconbutt">
+          <i class="hamburger"></i>
+          <img src="../images/PixelArtAvo.png" alt="Avocado_Title_Banner" style="width:max-content; height: auto;">
+        </a>
+      </div>
+<div style="background-color:#6eff84;padding:15px;text-align:center;">
+    <a href="../index.html">
+    <img src="../images/avocadobanner.png" alt="Avocado_Title_Banner">
+</a>
+</div>
+    <div class="centerText">
+        <p>welcome to the minigame where you can make guacamole!</p>
+        <p>Just click on the good ingredients to add them into the bowl and follow along!</p>
+        <p>There are also some bad ingredients that will mess up your dish!</p>
+        <p>click on the avocado slice to close the pop up box!</p>
+        <button class="clearbutton buttonIng" id="but1"> 
+            <img alt = "avocado" id="ing1" src="../images/CloseAvo.png" width="70" height="80">
+        </button>
+        <button class="clearbutton buttonIng" id="but2">
+            <img alt = "cilantro" id="ing2" src="../images/Ingredients/cilantro.png" width="90" height="100">
+        </button>
+        <button class="clearbutton buttonIng" id="but8">
+            <img alt = "Mayo" id="ing8" src="../images/Ingredients/Mayo.png" width="70" height="100">
+        </button>
+        <button class="clearbutton buttonIng" id="but3">
+            <img alt = "tomato" id="ing3" src="../images/Ingredients/tomato.png"  width="90" height="100">
+        </button> 
+        <button class="clearbutton buttonIng" id="but10">
+            <img alt = "wine" id="ing10" src="../images/Ingredients/wine.png"  width="30" height="auto">
+        </button> 
+        <button class="clearbutton buttonIng" id="but4">
+            <img alt = "garlic" id="ing4" src="../images/Ingredients/garlic.png"  width="90" height="100">
+        </button> 
+        <button class="clearbutton buttonIng" id="but11">
+            <img alt = "garlic" id="ing11" src="../images/Ingredients/radish.png"  width="90" height="100">
+        </button> 
+        <button class="clearbutton buttonIng" id="but5">
+            <img alt = "halapeno" id="ing5" src="../images/Ingredients/halapeno.png" width="90" height="100">
+        </button>  
+        <button class="clearbutton buttonIng" id="but6">
+            <img alt = "onion" id="ing6" src="../images/Ingredients/onion.png" width="90" height="100">
+        </button>  
+        <button class="clearbutton buttonIng" id="but9">
+            <img alt = "PeanutButter" id="ing9" src="../images/Ingredients/PeanutButter.png" width="60" height="100">
+        </button>  
+        <button class="clearbutton buttonIng" id="but7">
+            <img alt = "lime" id="ing7" src="../images/Ingredients/lime.png" width="90" height="100">
+        </button>
+            <div id="div1">
+            <img style="padding-bottom: 2em;"  id="bowl" alt="bowl" src="../images/Ingredients/bowl.png" width="120" height="120">
+        </div>
+        <div class="center" id="revealbutton" style="display: none; padding-top: 2em; ;">
+            <button id="cookbutton" class="button" >Mix!!</button>
+        </div>
+        <div class="centerText" id="revealtext" style="display: none;">
+            <a style="margin-left: 5.5em;">Well done! You have successfully made guacamole!</a>
+        </div>
+        <p >Below are even more recipes that involve avocados! Take a look!</p>
+        <p style="padding-bottom: 1em;" >Click on the picture to go to the recipe page!</p>
+        <div>
+            <div class="recipe_align_left">
+                <h1 >Avocado Chips</h1>
+                <table style="width:50%; height: 100px; text-align: center;">
+                    <tr>
+                    <th>Serving Size</th>
+                    <th>Calories / Serving</th>
+                    <th>Prep time</th>
+                    </tr>
+                    <tr>
+                    <td>15 servings</td>
+                    <td>120 cal</td>
+                    <td>40 minutes</td>
+                    </tr>
+                </table>
+                <h3>Ingredients:</h3>
+                <ul>
+                    <li>1 large ripe avocado </li>
+                    <li>3/4 cup of freshly grated Parmesan</li>
+                    <li>1 teaspoon of lemon juice</li>
+                    <li>1/2 a teaspoon of garlic powder</li>
+                    <li>1/2 a teaspoon of italian seasoning</li>
+                    <li>Kosher salt</li>
+                    <li>Ground Black Pepper</li>    
+                </ul>
+                <h3>Description:</h3>
+                <p>Hot tip for getting your chips nice and thin: spray the bottom of a <br> dry measuring cup with nonstick cooking spray and <br>press lightly on the scoops of avocado mixture to flatten.</p>
+            </div>
+            <a href="https://www.delish.com/cooking/recipe-ideas/a21948089/avocado-chips-recipe/" target="blank">
+            <img class="recipe_image" src="../images/Recipes/avocadochips.jpg" alt="Avocado_Title_Banner">
+            </a>
+        </div>
+
+        <div>
+            <div class="recipe_align_left">
+                <h1 >Avocado Egg Boats</h1>
+                <table style="width:50%; height: 100px; text-align: center;">
+                    <tr>
+                    <th>Serving Size</th>
+                    <th>Calories / Serving</th>
+                    <th>Prep time</th>
+                    </tr>
+                    <tr>
+                    <td>4 servings</td>
+                    <td>220 cal</td>
+                    <td>40 minutes</td>
+                    </tr>
+                </table>
+                <h3>Ingredients:</h3>
+                <ul>
+                    <li>2 large ripe avocados, pitted</li>
+                    <li>4 eggs</li>
+                    <li>3 slices of bacon</li>
+                    <li>Finely chopped chives for garnish</li>
+                    <li>Kosher salt</li>
+                    <li>Ground Black Pepper</li>    
+                </ul>
+                <h3>Description:</h3>
+                
+                <p>Avocado's creamy texture pairs perfectly with a just <br>set egg and crispy bacon. It's a power breakfast <br> move or healthy snack that will keep you moving!</p>
+           
+            </div>
+            <a href="https://www.delish.com/cooking/recipe-ideas/recipes/a45382/avocado-egg-boats-recipe/" target="blank">
+            <img class="recipe_image" src="../images/Recipes/baked_avocado.jpg" alt="Avocado_Title_Banner">
+            </a>
+        </div>
+
+        <div>
+            <div class="recipe_align_left">
+                <h1 >Sinh Tố Bơ</h1>
+                <table  style="width:50%; height: 100px; text-align: center;">
+                    <tr>
+                    <th>Serving Size</th>
+                    <th>Calories / Serving</th>
+                    <th>Prep time</th>
+                    </tr>
+                    <tr>
+                    <td>1 servings</td>
+                    <td>230 cal</td>
+                    <td>10 minutes</td>
+                    </tr>
+                </table>
+                <h3>Ingredients:</h3>
+                <ul>
+                    <li>1 ripe Haas avocado</li>
+                    <li>1 cup of ice</li>
+                    <li>3 slices of bacon</li>
+                    <li>1/2 cup of coconut milk</li>
+                    <li>1/4 cup condensed milk</li>
+                </ul>
+                <h3>Description:</h3>
+                <p>Sinh Tố Bơ (literally “butter fruit smoothie”) is basically a <br>Vietnamese avocado milkshake. Condensed milk is used to heighten <br> the naturally sweet and nutty flavors of ripe avocado.</p>
+           
+            </div>
+            <a href="https://www.delish.com/cooking/recipe-ideas/a33082111/sinh-to-bo-recipe/" target="blank">
+            <img class="recipe_image" src="../images/Recipes/avocado_milkshake.jpg" alt="Avocado_Title_Banner">
+            </a>
+        </div>
+        <p style="padding-bottom: 15em;"></p>
+        <div class="centerBox" id="revealimage" style="display: none; width: 300px; margin-left: -1.5em;">
+            <img src= "../images/AvocadoOutline.png" alt="outline" style="max-width: 500px;" />
+            <p id="commontxt" style="margin-top: -23em; text-align: center; margin-left: 3.5em;"></p>
+            
+            <button id="closeavoreveal" class="clearbutton">
+            <img alt="Avocado slice" src="../images/Avoslice.png" id="avo2" width="100" height="150" style="margin-left: 8em;">
+            </button>
+        </div>
+    </div>
+    <p style="padding-bottom: 1em;"></p>
+    <div class="centerBox" id="revealcook" style="display: none; width: 300px; margin-left: -1.5em;">
+        <img src= "../images/AvocadoOutline.png" alt="outline" style="max-width: 500px;" />
+        <p style="margin-top: -15em; text-align: center; margin-left: 3.5em;">Please wait while we mix your guacomole together! :)</p>
+    </div>
+
+
+    <footer class="footer" style="background-color:#48dd5c;text-align:center;padding:10px;margin-top:2em;">
+        <p class="midsnap" id = "funfacttxt" style="font-size: 15px; text-align: center; margin-left: -1em; margin-top: 2em;">
+            --Fun fact appears here--
+        </p>
+        <button id="funfactbutton" class="button">Click me for an avocado fun fact!</button>
+        
+    </footer>
+    <script src="../js/script.js"></script>
+    <script>
+        var inum = 0;
+        var ele;
+        var buttons = document.getElementsByClassName("buttonIng");
+        for (var i = 0; i < buttons.length; i++) {
+            buttons[i].addEventListener("click", addingredient, this.id)
+        }
+        document.getElementById("closeavoreveal").addEventListener("click", closeavoreveal);
+        document.getElementById("cookbutton").addEventListener("click", cook);
+        document.getElementById("Badingredients").addEventListener("click",badingredient);
+  </script>
+    <audio id="cooksfx" src="../audio/cookingsfx.mp3"></audio>
+    <audio id="placesfx" src="../audio/Placesfx.mp3"></audio>
+</body>
+</html>
+

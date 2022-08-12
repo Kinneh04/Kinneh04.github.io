@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>welcome!</title>
+    <link rel="stylesheet" href="css/ss.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="bg" style="font-family:Verdana;color:#000000;">
+    <div class="topnav">
+        <a href="index.html" class="active">HomePage</a>
+        <div id="myLinks">
+          <a href="html/benefits.html">Benefits</a>
+          <a href="html/history.html">History</a>
+          <a href="html/cooking.html">Cooking</a>
+        </div>
+        <a class="icon" id="iconbutt">
+          <i class="hamburger"></i>
+          <img src="images/PixelArtAvo.png" alt="Avocado_Title_Banner" style="width:max-content; height: auto;">
+        </a>
+      </div>
+<div style="background-color:#6eff84;padding:15px;text-align:center;">
+    <img src="images/avocadobanner.png" alt="Avocado_Title_Banner">
+</div>
+
+<div class="bg2">
+    <div style="overflow:auto">
+
+    <div class="main">
+        <h2>What is an avocado?</h2>
+        <p>An avocado is a bright green fruit with a large pit and dark leathery skin. They're also known as alligator pears or butter fruit. Avocados are a favorite of the produce section. They're the go-to ingredient for guacamole dips. And they're turning up in everything from salads and wraps to smoothies and even brownies!</p>
+        <p>Even though they have alot of calories, they also provide a lot of health benefits when eating them. They are high in monosaturated fat, which is the 'good' fat that helps lower cholestrol!</p>
+        <div style="padding-top: 2em;">
+            <p>In addition to the fruit, the leaves of Mexican avocados are used in some cuisines as a spice, with a flavor somewhat reminiscent of anise! They are sold both dried and fresh, toasted before use, and either crumbled or used whole, commonly in bean dishes.These leaves are toxic to goats, sheep, and horses</p>
+            <img class="left" src="images/avocadoleaves.jpg" alt="Avocado_leaves">
+            <img class="right2" src="images/avocadopicture.jpeg" alt="Avocado_pic_1">
+            <p class="footerpadding2">avocado leaves, and avocado fruit itself</p>
+        </div>
+    </div>
+    <div class="right png">
+        <p id="clicktxt">click me!</p>
+        <button class="clearbutton" id="clickerb">
+        <img class="frontavo" src="images/PixelArtAvo.png" alt="Avocado_clicker">
+        </button>
+        <p id="clicker">times cicked: 0</p>
+    </div>
+    <div class="menu" style="float:right;">
+        <h2>Common avocado recipes!</h2>
+        <ul>
+            <li>Guacamole</li>
+            <li>Avocado toast</li>
+            <li>Avocado Ricotta Crostini</li>
+        </ul>  
+        <p style="padding-top: 2em;">Click on the links to find out more about avocados, like their health benefits and history!</p>
+        <p style="padding-top: 2em;">Or scan the QR code below to open the page with your phone!</p>
+        <img class="footerpadding" src="images/QRcode.png" alt="QRcode">
+    </div>
+</div>
+    <footer class="footer" style="background-color:#48dd5c;text-align:center;padding:10px;margin-top:2em;">
+        <p class="midsnap" id = "funfacttxt" style="font-size: 15px; text-align: center; margin-left: -1em; margin-top: 2em;">
+            --Fun fact appears here--
+        </p>
+        <button id="funfactbutton" class="button">Click me for an avocado fun fact!</button>
+        
+    </footer>
+</div>
+    <script src="js/script.js"> </script>
+    <script>
+        var count = 0
+        document.getElementById("clickerb").addEventListener("click", clicker);
+    </script>
+        </body>
+</html>
+
