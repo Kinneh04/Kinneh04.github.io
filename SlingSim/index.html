@@ -7,7 +7,7 @@
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
     <canvas id="unity-canvas" width=1600 height=900 style="width: 1600px; height: 900px; background: #231F20"></canvas>
-    <script src="Build/240329_3.loader.js"></script>
+    <script src="Build/NewWebGL.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -25,9 +25,9 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/240329_3.data",
-        frameworkUrl: "Build/240329_3.framework.js",
-        codeUrl: "Build/240329_3.wasm",
+        dataUrl: "Build/NewWebGL.data",
+        frameworkUrl: "Build/NewWebGL.framework.js",
+        codeUrl: "Build/NewWebGL.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Slingsim",
